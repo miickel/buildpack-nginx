@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
-apt-get -y update
-apt-get -y install nginx-light
+#apt-get -y update
+apt-get -y install nginx
 
 BINDIR=$(dirname "$0")
 
